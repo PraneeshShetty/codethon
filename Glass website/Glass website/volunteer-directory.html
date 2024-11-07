@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Volunteer Directory</title>
+    <link rel="stylesheet" href="volunteer-directory.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="volunteer-directory">
+      <!-- Header Section -->
+      <div class="header">
+        <div class="logo">LOGO</div>
+        <nav class="navbar">
+          <ul class="menu">
+            <li><a href="./">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="community-directory.html">Directory</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Main Content -->
+      <div class="main-content">
+        <h1>Volunteer Profiles</h1>
+        <p>Find a volunteer to collaborate with based on their skills and expertise.</p>
+
+        <!-- Search & Filter Section -->
+        <div class="search-filter">
+          <input type="text" placeholder="Search by name or skill..." class="search-bar" />
+          <select class="filter">
+            <option value="">Filter by Skills</option>
+            <option value="education">Education</option>
+            <option value="fundraising">Fundraising</option>
+            <option value="event-planning">Event Planning</option>
+          </select>
+        </div>
+
+        <!-- Volunteer Profiles Grid -->
+        <div class="profiles">
+          <div class="profile-card">
+            <img src="volunteer1.jpg" alt="Volunteer 1" />
+            <h2>Jane Doe</h2>
+            <p>Role: Event Coordinator</p>
+            <p>Skills: Event Planning, Public Speaking, Fundraising</p>
+            <button class="connect-btn">Connect</button>
+          </div>
+
+          <div class="profile-card">
+            <img src="volunteer2.jpg" alt="Volunteer 2" />
+            <h2>John Smith</h2>
+            <p>Role: Community Outreach</p>
+            <p>Skills: Outreach, Education, Volunteer Coordination</p>
+            <button class="connect-btn">Connect</button>
+          </div>
+
+          <div class="profile-card">
+            <img src="volunteer3.jpg" alt="Volunteer 3" />
+            <h2>Emily Johnson</h2>
+            <p>Role: Fundraising Specialist</p>
+            <p>Skills: Fundraising, Grant Writing, Event Planning</p>
+            <button class="connect-btn">Connect</button>
+          </div>
+
+          <div class="profile-card">
+            <img src="volunteer4.jpg" alt="Volunteer 4" />
+            <h2>Michael Brown</h2>
+            <p>Role: Volunteer Manager</p>
+            <p>Skills: Team Leadership, Volunteer Coordination, Event Planning</p>
+            <button class="connect-btn">Connect</button>
+          </div>
+
+          <!-- Additional Profiles can go here... -->
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
